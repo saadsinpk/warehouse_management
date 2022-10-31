@@ -1,0 +1,35 @@
+.float_right{float: right;}
+.float_left{float: left;}
+.m-t-10{margin-top: 10px;}
+.w-25percent{width: 25%; }
+.printbtn{display: flex;align-content: center; justify-content: space-between;}
+.datearea{display:none;padding-top: 10px;padding-left: 10px}
+.close{color:white;}
+.btn:focus {background-color: #6A5ACD; }
+.p-r-20{padding-right: 20px}
+.w-130px{width: 130px;}
+.f-s-18px{font-size: 18px}
+.f-s-14px{font-size: 14px}
+.f-s-13px{font-size: 13px}
+
+.cashclosing_title{text-align: center; font-size: 17px; color: black; font-weight:bold}
+.m-l-2{margin-left: 2px;}
+.t-s-25{font-size: 25px;}
+.assigned_area{background: #ddd; margin: -2px;}
+.loadrole{margin-left: 20px; margin-bottom: 15px;}
+.m-b-0{margin-bottom: 0px;}
+select2-container {
+    width: 100% !important;
+}
+
+/*========= its for invoice module ===========*/
+#bank_info_hide
+{
+    display:none;
+}
+#payment_from_2
+{
+    display:none;
+}
+
+/*============= close ============*/
