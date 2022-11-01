@@ -138,6 +138,10 @@ class Cpurchase extends CI_Controller {
                             </td>
 
                             <td class=\"text-right\" style=\"width:100px\">
+                                <input onchange=\"claculateItemPrice('" . $product_id . "');\" onkeyup=\"claculateItemPrice('" . $product_id . "');\" class=\"item_price form-control text-right\" type=\"text\" name=\"item_price[]\" id=\"item_price_" . $product_id . "\" value='0' tabindex=\"-1\" />
+                            </td>
+
+                            <td class=\"text-right\" style=\"width:100px\">
                                 <input class=\"total_price form-control text-right\" type=\"text\" name=\"total_price[]\" id=\"total_price_" . $product_id . "\" value='" . $product_details->price . "' tabindex=\"-1\" readonly=\"readonly\"/>
                             </td>
 
